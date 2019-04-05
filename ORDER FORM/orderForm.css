@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Cookie);
+
+/* Hide un-compiled mustache bindings
+until the Vue instance is ready */
+
+[v-cloak] {
+  display: none;
+}
+
+body{
+    font:15px 'Open Sans', sans-serif;
+    color: #5e5b64;
+    text-align:center;
+}
+
+a, a:visited {
+    outline:none;
+    color:#389dc1;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+section, footer, header, aside, nav{
+    display: block;
+}
+
+*{
+    margin:10;
+    padding:0;
+}
+
+form{
+    background-color: #50a0b0;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px #ccc;
+    width: 400px;
+    padding: 35px 60px;
+    margin: 50px auto;
+}
+
+form h1{
+    color:#000;
+    font-size:64px;
+    font-family:'Brush Script MT';
+    font-weight: normal;
+    line-height:1;
+    text-shadow:0 3px 0 rgba(0,0,0,0.1);
+}
+
+form ul{
+    list-style:none;
+    color:#000;
+    font-size:20px;
+    font-weight:bold;
+    text-align: left;
+    margin:20px 0 15px;
+}
+
+form ul li{
+    padding:20px 30px;
+    background-color:#ff0000;
+    margin-bottom:8px;
+    cursor:pointer;
+}
+
+form ul li span{
+    float:right;
+}
+
+form ul li.active{
+    background-color:#00ff00;
+}
+
+div.total{
+    border-top:1px solid #000;
+    padding:15px 30px;
+    font-size:20px;
+    font-weight:bold;
+    text-align: left;
+    color:#000;
+}
+
+div.total span{
+    float:right;
+}
